@@ -1,0 +1,17 @@
+analysis,lib,n_sets,n_infl_sets,frac_all_sig,infl_sig_up,infl_sig_down,infl_in_top15_up,infl_in_bottom15
+P5 healthy sc vs sn within Bcells,hallmark,50,8,0.56,5,0,3,0
+P5 healthy sc vs sn within Hepatocyte,hallmark,50,8,0.62,5,0,2,0
+P5 healthy sc vs sn within Hepatocyte,kegg,185,6,0.40540540540540543,2,0,1,0
+P5 healthy sc vs sn within Hepatocyte,reactome,1414,51,0.4292786421499293,17,5,0,0
+P5 healthy sc vs sn within Hepatocyte,gobp,4998,181,0.23609443777511005,36,1,0,0
+P5 healthy sc vs sn within LSECs,hallmark,50,8,0.58,5,0,3,0
+P5 healthy sc vs sn within Macrophage,hallmark,50,8,0.56,6,0,4,0
+P5 healthy sc vs sn within NKTcell,hallmark,50,8,0.5,5,0,3,0
+"P5 healthy sc vs sn, composition-matched",hallmark,50,8,0.7,7,0,1,0
+"P5 healthy sc vs sn, composition-matched",kegg,185,6,0.40540540540540543,4,0,1,0
+"P5 healthy sc vs sn, composition-matched",reactome,1427,52,0.4386825508058865,18,5,0,0
+"P5 healthy sc vs sn, composition-matched",gobp,5057,187,0.2592446114297014,59,3,0,0
+"P5 healthy sc vs sn, author cells unmatched",hallmark,50,8,0.7,8,0,4,0
+"P5 healthy sc vs sn, author cells unmatched",kegg,185,6,0.4,5,0,1,0
+"P5 healthy sc vs sn, author cells unmatched",reactome,1426,52,0.43688639551192143,25,1,0,0
+"P5 healthy sc vs sn, author cells unmatched",gobp,5055,187,0.2775469831849654,91,1,0,0

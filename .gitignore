@@ -1,0 +1,9 @@
+data/
+__pycache__/
+*.pyc
+*.h5ad
+*.npz
+*.mtx.gz
+*.rds
+results/private/
+.DS_Store
