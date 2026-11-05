@@ -17,12 +17,12 @@ rownames(ann) <- ann$ensg
 
 MIN_HEP <- 50  # libraries with fewer labelled hepatocytes leave the hepatocyte-only fit
 summ <- list()
-for (material in c("whole", "hep")) {
+for (material in c("whole", "hep", "hepdecont")) {  # hepdecont: etiology_matched/scripts/23_decontaminate.py
   X <- as.matrix(read.csv(file.path(D, paste0("pb_", material, "_ensg.csv")), row.names = 1, check.names = FALSE))
   X <- X[intersect(rownames(X), shared), ]
   for (mod in c("sc", "sn")) {
     L <- lib[lib$modality == mod, ]
-    if (material == "hep") {
+    if (material %in% c("hep", "hepdecont")) {
       low <- L$library[L$n_hep < MIN_HEP]
       if (length(low)) cat(mod, "hepatocyte arm: left out (<", MIN_HEP, "hepatocytes):", low, "\n")
       L <- L[L$n_hep >= MIN_HEP, ]

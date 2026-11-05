@@ -1,0 +1,28 @@
+"material","contrast","fit","n_disease","n_healthy","n_genes","n_protein_coding","bh05"
+"hep","cirrMASH","source-adjusted, all patients",9,4,20448,14337,289
+"hep","endstage","source-adjusted, all patients",5,4,20448,14337,647
+"hep","NASH","source-adjusted, all patients",27,4,20448,14337,4
+"hep","NAFLD","source-adjusted, all patients",7,4,20448,14337,546
+"hep","fibrosis_trend","slope per fibrosis stage, numeric-ID source",40,NA,18129,13291,167
+"hep","cirrMASH","unadjusted",9,4,19264,13831,6
+"hep","endstage","unadjusted",5,4,19054,13674,1683
+"hep","NASH","unadjusted",27,4,19680,13936,2
+"hep","NAFLD","unadjusted",7,4,16604,12564,1
+"all","cirrMASH","source-adjusted, all patients",9,4,21828,15012,311
+"all","endstage","source-adjusted, all patients",5,4,21828,15012,679
+"all","NASH","source-adjusted, all patients",27,4,21828,15012,2
+"all","NAFLD","source-adjusted, all patients",7,4,21828,15012,87
+"all","fibrosis_trend","slope per fibrosis stage, numeric-ID source",40,NA,19744,14246,38
+"all","cirrMASH","unadjusted",9,4,21598,14920,14
+"all","endstage","unadjusted",5,4,21208,14728,895
+"all","NASH","unadjusted",27,4,21305,14776,104
+"all","NAFLD","unadjusted",7,4,18503,13736,26
+"hep_decont","cirrMASH","source-adjusted, all patients",9,4,18190,13140,298
+"hep_decont","endstage","source-adjusted, all patients",5,4,18190,13140,689
+"hep_decont","NASH","source-adjusted, all patients",27,4,18190,13140,5
+"hep_decont","NAFLD","source-adjusted, all patients",7,4,18190,13140,906
+"hep_decont","fibrosis_trend","slope per fibrosis stage, numeric-ID source",40,NA,16256,12203,121
+"hep_decont","cirrMASH","unadjusted",9,4,15705,11958,12
+"hep_decont","endstage","unadjusted",5,4,17064,12441,1521
+"hep_decont","NASH","unadjusted",27,4,18267,13065,4
+"hep_decont","NAFLD","unadjusted",7,4,14989,11593,2

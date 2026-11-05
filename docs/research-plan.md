@@ -20,9 +20,9 @@ Goal: find a biologically interesting difference between hepatocyte nuclei (snRN
 
 Public data only (cloud sessions can do these):
 
-- [ ] T1 (H5) Find and vet etiology-matched liver snRNA datasets: MASH and/or ALD cirrhosis plus healthy controls, with raw counts and ideally cell labels. Record accession, PMID (verified), n per group, chemistry and labels in `docs/datasets.md`.
-- [ ] T2 (H5) For the best T1 dataset: hepatocyte-nucleus pseudobulk per donor using the same cell rule and reference labelling as `stratified/scripts/11*`. Then limma-voom disease vs healthy and Hallmark/KEGG/Reactome/GO BP GSEA with the same settings. Commit the tables.
-- [ ] T3 (H2) Ambient correction for the Andrews libraries: per-library ambient profile from barcodes with 10–100 UMIs, a contamination fraction per library (from genes absent in hepatocytes), and corrected hepatocyte pseudobulks. Then re-run the PSC/PBC vs healthy hepatocyte GSEA and report which pathways move.
+- [done: 2026-11-05, Gribben et al. 2024 GSE202379, see etiology_matched/] T1 (H5) Find and vet etiology-matched liver snRNA datasets: MASH and/or ALD cirrhosis plus healthy controls, with raw counts and ideally cell labels. Record accession, PMID (verified), n per group, chemistry and labels in `docs/datasets.md`.
+- [done: 2026-11-05, see docs/findings-public.md section 1] T2 (H5) For the best T1 dataset: hepatocyte-nucleus pseudobulk per donor using the same cell rule and reference labelling as `stratified/scripts/11*`. Then limma-voom disease vs healthy and Hallmark/KEGG/Reactome/GO BP GSEA with the same settings. Commit the tables.
+- [partly done: 2026-11-05, all-nuclei pseudobulk as the ambient pool, see docs/findings-public.md section 2; open: redo with empty-droplet profiles from the raw matrices] T3 (H2) Ambient correction for the Andrews libraries: per-library ambient profile from barcodes with 10–100 UMIs, a contamination fraction per library (from genes absent in hepatocytes), and corrected hepatocyte pseudobulks. Then re-run the PSC/PBC vs healthy hepatocyte GSEA and report which pathways move.
 - [ ] T4 (H3) Coagulation decomposition on the public data: per-gene log fold change of hepatocyte-made vs endothelial coagulation genes in hepatocyte nuclei and cells, PSC/PBC vs healthy, and in T2.
 - [ ] T5 Literature check, with every PMID verified: direct comparisons of isolated-hepatocyte bulk with hepatocyte nuclei or cells; non-parenchymal contamination of hepatocyte isolations; human hepatocyte EMT evidence; hepatocyte coagulation-factor transcription in cirrhosis.
 - [ ] T6 Draft (do not send) the emails in `docs/open-questions-for-researchers.md` into `docs/outreach/`.
@@ -32,3 +32,9 @@ Local only (repo owner's machine, private cohort):
 - [ ] L1 (H1) Refit the bulk disease model with a non-parenchymal marker covariate; list pathways that lose significance.
 - [ ] L2 (H3) Coagulation split by cell of origin in the bulk.
 - [ ] L3 (H6) Re-test the local list of findings in hepatocyte nuclei.
+
+## New tasks (2026-11-05)
+
+- [ ] T7 Ambient pool from empty droplets: for the Andrews raw matrices, build the per-library profile from barcodes with 10–100 UMIs and redo `etiology_matched/scripts/23_decontaminate.py` with it; check whether the contamination fractions and the surviving pathways change.
+- [ ] T8 Is the residual hepatocyte "EMT" an injury programme? Score SERPINE1, PLOD2, COL5A3, HTRA1, TNFRSF12A, TIMP1, IL32 per patient in decontaminated hepatocyte nuclei (both datasets) against fibrosis stage, and check the literature (verified PMIDs) for these genes as hepatocyte injury or ductular-reaction markers.
+- [ ] T9 Gribben source effect: describe what distinguishes the HL/CL and numeric-ID samples (methods section of PMID 38778114: collection, nuclei isolation, sequencing batch) and whether the paper's healthy-vs-disease comparisons are exposed to it. Draft a question to the authors if unclear.
