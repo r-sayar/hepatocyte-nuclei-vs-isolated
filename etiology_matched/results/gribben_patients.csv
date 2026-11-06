@@ -1,0 +1,48 @@
+"Patient.ID","Disease.status","Fibrosis.score..F0.4.","SAF.Score","Age","n_nuclei","n_hep","n_libraries"
+"70","NASH w/o cirrhosis",3,"S2A3F3","59",654,243,1
+"48","NASH w/o cirrhosis",2,"S1A2F2","44",917,803,1
+"77","NASH w/o cirrhosis",2,"S1A3F2","62",1301,762,1
+"78","NAFLD",0,"S1A1F0","53",1216,1121,1
+"62","NASH w/o cirrhosis",3,"S2A3F3","60",442,408,1
+"83","NASH w/o cirrhosis",2,"S2A4F2","56",419,225,1
+"67","NASH w/o cirrhosis",3,"S2A2F3","67",1614,1496,1
+"52","NASH w/o cirrhosis",1,"S2A2F1","49",508,148,1
+"53","NASH w/o cirrhosis",3,"S2A4F3","57",371,105,1
+"54","NASH w/o cirrhosis",2,"S3A3F2","61",1375,838,1
+"71","NASH w/o cirrhosis",2,"S2A4F2","32",182,137,1
+"64","NASH w/o cirrhosis",1,"S3A3F1","55",1038,750,1
+"6","NAFLD",1,"S1A1F1","57",3427,2811,1
+"49","NASH w/o cirrhosis",2,"S1A3F2","55",2211,1775,1
+"50","NASH w/o cirrhosis",2,"S3A3F2","45",1632,789,1
+"51","NAFLD",1,"S1A1F1","57",1734,786,1
+"76","NASH w/o cirrhosis",2,"S1A3F2","55",1502,718,1
+"60","NAFLD",0,"S1A1F0","53",1121,903,1
+"7","NASH w/o cirrhosis",2,"S3A4F2","47",2377,2096,1
+"19","NASH w/o cirrhosis",3,"S1A4F3","76",1538,1387,1
+"8","NASH w/o cirrhosis",3,"S2A4F3","65",3605,2876,1
+"20","NASH w/o cirrhosis",3,"S2A3F3","71",3606,2811,1
+"9","NASH w/o cirrhosis",1,"S2A2F1","50",3606,2917,1
+"21","NASH w/o cirrhosis",2,"S2A3F2","60",3898,2847,1
+"HL2","Healthy control",0,"healthy control","74",1332,849,1
+"CL103","end stage",4,"end stage","59",4904,2065,3
+"15","NASH w/o cirrhosis",3,"S2A4F3","65",1074,976,1
+"16","NASH w/o cirrhosis",3,"S1A4F3","70",2450,2149,1
+"30","Healthy control",0,"S0A1F0","49",1068,964,1
+"98","Healthy control",1,"S1A1F1","57",860,297,1
+"CL16","end stage",4,"end stage","63",7591,6117,3
+"CL104","end stage",4,"end stage","59",2926,1960,3
+"57","NASH w/o cirrhosis",2,"S2A3F2","53",1357,470,1
+"3","NASH w/o cirrhosis",1,"S2A3F1","56",1531,1441,1
+"11","NASH w/o cirrhosis",3,"S2A4F3","63",1058,989,1
+"72","NASH w/o cirrhosis",3,"S2A3F3","41",2761,676,1
+"73","NASH w/o cirrhosis",1,"S2A3F1","59",2503,1071,1
+"CL18","end stage",4,"end stage","68",10752,8650,3
+"CL17","end stage",4,"end stage","72",5317,4305,3
+"55","NAFLD",2,"S1A1F2","21",1119,646,1
+"56","NAFLD",1,"S1A1F1","47",1242,505,1
+"HL1","Healthy control",0,"healthy control","38",3844,1640,3
+"84","NAFLD",3,"S1A0F3","56",529,301,1
+"68","NASH with cirrhosis",4,"S1A3F4","66",1127,518,1
+"12","NASH with cirrhosis",4,"S2A3F4","48",654,568,1
+"75","NASH with cirrhosis",4,"S1A3F4","60",1202,444,1
+"22","NASH with cirrhosis",4,"S1A3F4","55",2314,2073,1

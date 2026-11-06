@@ -1,0 +1,41 @@
+analysis,lib,n_sets,n_infl_sets,frac_all_sig,infl_sig_up,infl_sig_down,infl_in_top15_up,infl_in_bottom15
+P1 ENCODE sn vs bulk (5 pairs) | pc,hallmark,50,8,0.72,0,7,0,0
+P1 ENCODE sn vs bulk (5 pairs) | pc,kegg,185,6,0.3783783783783784,0,2,0,1
+P1 ENCODE sn vs bulk (5 pairs) | pc,reactome,1431,52,0.336827393431167,0,14,0,1
+P1 ENCODE sn vs bulk (5 pairs) | pc,gobp,5090,190,0.21984282907662084,2,37,0,3
+P1 ENCODE sn vs bulk (5 pairs) | pc+length-adj,hallmark,50,8,0.78,0,7,0,1
+P1 ENCODE sn vs bulk (5 pairs) | pc+length-adj,kegg,185,6,0.4972972972972973,0,3,0,1
+P1 ENCODE sn vs bulk (5 pairs) | pc+length-adj,reactome,1431,52,0.3836477987421384,0,17,0,2
+P1 ENCODE sn vs bulk (5 pairs) | pc+length-adj,gobp,5090,190,0.27092337917485265,0,40,0,3
+"P2 Andrews sc vs sn, all (n=10) | pc",hallmark,50,8,0.58,8,0,5,0
+"P2 Andrews sc vs sn, all (n=10) | pc",kegg,185,6,0.3621621621621622,4,0,1,0
+"P2 Andrews sc vs sn, all (n=10) | pc",reactome,1438,52,0.433240611961057,32,0,0,0
+"P2 Andrews sc vs sn, all (n=10) | pc",gobp,5136,189,0.26713395638629284,100,0,0,0
+"P2 Andrews sc vs sn, all (n=10) | pc+length-adj",hallmark,50,8,0.7,8,0,5,0
+"P2 Andrews sc vs sn, all (n=10) | pc+length-adj",kegg,185,6,0.41081081081081083,4,0,1,0
+"P2 Andrews sc vs sn, all (n=10) | pc+length-adj",reactome,1438,52,0.433240611961057,38,0,0,0
+"P2 Andrews sc vs sn, all (n=10) | pc+length-adj",gobp,5136,189,0.26888629283489096,112,0,0,0
+"P2 Andrews sc vs sn, healthy (n=4) | pc",hallmark,50,8,0.68,8,0,5,0
+"P2 Andrews sc vs sn, healthy (n=4) | pc",kegg,185,6,0.3891891891891892,5,0,1,0
+"P2 Andrews sc vs sn, healthy (n=4) | pc",reactome,1430,52,0.4216783216783217,24,1,0,0
+"P2 Andrews sc vs sn, healthy (n=4) | pc",gobp,5071,187,0.2865312561624926,91,1,0,0
+"P2 Andrews sc vs sn, healthy (n=4) | pc+length-adj",hallmark,50,8,0.74,7,0,4,0
+"P2 Andrews sc vs sn, healthy (n=4) | pc+length-adj",kegg,185,6,0.4486486486486487,4,0,1,0
+"P2 Andrews sc vs sn, healthy (n=4) | pc+length-adj",reactome,1430,52,0.4048951048951049,28,0,0,0
+"P2 Andrews sc vs sn, healthy (n=4) | pc+length-adj",gobp,5071,187,0.2654308814829422,96,0,0,0
+"P2 Andrews sc vs sn, disease (n=6) | pc",hallmark,50,8,0.58,8,0,4,0
+"P2 Andrews sc vs sn, disease (n=6) | pc",kegg,185,6,0.32972972972972975,4,0,1,0
+"P2 Andrews sc vs sn, disease (n=6) | pc",reactome,1438,52,0.4415855354659249,31,0,0,0
+"P2 Andrews sc vs sn, disease (n=6) | pc",gobp,5125,188,0.28565853658536583,108,0,0,0
+"P2 Andrews sc vs sn, disease (n=6) | pc+length-adj",hallmark,50,8,0.58,7,0,5,0
+"P2 Andrews sc vs sn, disease (n=6) | pc+length-adj",kegg,185,6,0.3621621621621622,3,0,1,0
+"P2 Andrews sc vs sn, disease (n=6) | pc+length-adj",reactome,1438,52,0.45897079276773295,34,0,0,0
+"P2 Andrews sc vs sn, disease (n=6) | pc+length-adj",gobp,5125,188,0.2850731707317073,116,0,0,0
+"P3 disease vs healthy, sc-pseudobulk | pc",hallmark,50,8,0.58,8,0,8,0
+"P3 disease vs healthy, sc-pseudobulk | pc",kegg,184,6,0.5217391304347826,4,1,3,0
+"P3 disease vs healthy, sc-pseudobulk | pc",reactome,1419,52,0.3453136011275546,27,2,8,0
+"P3 disease vs healthy, sc-pseudobulk | pc",gobp,5058,188,0.2922103598260182,120,4,0,0
+"P3 disease vs healthy, sn-pseudobulk | pc",hallmark,50,8,0.6,5,0,5,0
+"P3 disease vs healthy, sn-pseudobulk | pc",kegg,185,6,0.5351351351351351,3,1,1,1
+"P3 disease vs healthy, sn-pseudobulk | pc",reactome,1427,52,0.3903293622985284,15,4,4,0
+"P3 disease vs healthy, sn-pseudobulk | pc",gobp,5087,186,0.36072341262040497,58,7,0,0
