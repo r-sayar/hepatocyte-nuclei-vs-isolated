@@ -8,5 +8,8 @@ MASH hepatocyte nuclei from Gribben et al. 2024, Nature, "Acquisition of epithel
 | `scripts/21_gribben_limma.R` | limma-voom, all patients with sample source as covariate (primary), the fibrosis-stage trend inside the biopsy source, and unadjusted two-group fits for the record |
 | `scripts/22_etiology_matched_concordance.py` | pathway-level comparison with an isolated-hepatocyte bulk cohort (private; code only) and between the two nuclei datasets |
 | `scripts/23_decontaminate.py` | SoupX-style ambient correction at pseudobulk level for both nuclei datasets |
+| `scripts/24a_define_nuclei_programme.py` | the hepatocyte progression programme, defined from decontaminated nuclei only |
+| `scripts/24_programme_in_bulk.py` | tests the programme on an isolated-hepatocyte bulk cohort (private; code only) |
+| `scripts/25_programme_in_mash_cohorts.py` | replication along fibrosis stage in public biopsy cohorts GSE162694 and GSE130970, with an expression-matched null |
 
-`results/` (public data only): `gribben_patients.csv` (per-patient stage, fibrosis, nuclei counts), `gribben_limma_summary.csv`, `decont_ecm_check.csv` (per-sample contamination fraction and how much of the ECM signal it explains), `public_hallmark_hepatocyte_nuclei.csv` (Hallmark NES / p / FDR for every nuclei and cell contrast, before and after decontamination). Findings: `docs/findings-public.md`.
+`results/` (public data only): `gribben_patients.csv` (per-patient stage, fibrosis, nuclei counts), `gribben_limma_summary.csv`, `decont_ecm_check.csv` (per-sample contamination fraction and how much of the ECM signal it explains), `public_hallmark_hepatocyte_nuclei.csv` (Hallmark NES / p / FDR for every nuclei and cell contrast, before and after decontamination), `nuclei_hepatocyte_programme.csv`, `programme_in_mash_cohorts.csv`, `programme_by_stage.csv`, `programme_genes_in_mash_cohorts.csv`. Findings: `docs/findings-public.md`.

@@ -39,6 +39,8 @@ Python 3.13 with scanpy, gseapy 1.3.2, pydeseq2 0.5.4, leidenalg; R with limma/e
 
 ## Status (2026-11-05)
 
+- **Main result:** a hepatocyte programme of fibrosis progression. It was discovered in contamination-corrected hepatocyte nuclei of MASH and PSC/PBC livers, and replicates with the same slope in two independent MASLD biopsy cohorts (`docs/findings-public.md` section 4). It contains genes never linked to liver fibrosis before (SPSB1, TMEM92, PPP1R1A, ADCY1).
+
 - Paired analyses done (see `docs/paired-analysis-note.md`).
 - Stratified pipeline done; its comparisons with the private cohort are kept locally.
 - Next steps and tasks that can run on public data alone: `docs/research-plan.md`.

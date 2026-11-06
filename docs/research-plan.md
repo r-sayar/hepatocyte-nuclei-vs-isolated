@@ -33,6 +33,14 @@ Local only (repo owner's machine, private cohort):
 - [ ] L2 (H3) Coagulation split by cell of origin in the bulk.
 - [ ] L3 (H6) Re-test the local list of findings in hepatocyte nuclei.
 
+## Tasks from the progression programme (2026-11-05, docs/findings-public.md section 4)
+
+- [ ] T10 Third replication: GSE135251 (MASLD biopsies, F0–F4; raw counts in `GSE135251_RAW.tar`) with `etiology_matched/scripts/25_programme_in_mash_cohorts.py` (add a loader).
+- [ ] T11 Blood readout: look for public plasma proteomics of liver fibrosis or cirrhosis (Olink / SomaScan) that include osteoprotegerin, GDF15, BCHE and CNDP1. Can the programme be read from blood? Verify every PMID.
+- [ ] T12 cAMP / glucagon: test whether glucagon-responsive hepatocyte genes (amino-acid catabolism, urea cycle) fall with fibrosis alongside ADCY1 and PPP1R1A in the two cohorts and in hepatocyte nuclei. Find (and verify) the literature on hepatic glucagon resistance in MASLD.
+- [ ] T13 Protein and place: check SPSB1, TMEM92, PPP1R1A and ADCY1 in Human Protein Atlas liver immunohistochemistry, and their zonation in public spatial liver data.
+- [ ] T14 SPSB1 / NEDD4L as hepatocyte TGF-β brakes: literature on SPSB1 degrading TGFBR2 and NEDD4L degrading SMAD2/3 (verified PMIDs). Design a minimal perturbation, e.g. siRNA in primary hepatocytes with TGF-β1, readout SMAD2/3 phosphorylation and the programme genes.
+
 ## New tasks (2026-11-05)
 
 - [ ] T7 Ambient pool from empty droplets: for the Andrews raw matrices, build the per-library profile from barcodes with 10–100 UMIs and redo `etiology_matched/scripts/23_decontaminate.py` with it; check whether the contamination fractions and the surviving pathways change.
